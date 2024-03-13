@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<title>Ensembe of Nomads</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="EoNcss/w3b.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="EoNcss/lightbox.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Full height) */
+.bgimg-1 {
+    background-image: url('images/eon1.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url('images/eon5.jpg');
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("images/eon7.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small">ABOUT</a>
+    <a href="#media" class="w3-bar-item w3-button w3-hide-small">MEDIA</a>
+    <a href="#upcoming" class="w3-bar-item w3-button w3-hide-small">UPCOMING</a>
+<a href="#contact" class="w3-bar-item w3-button w3-hide-small">CONTACT</a>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#media" class="w3-bar-item w3-button" onclick="toggleFunction()">MEDIA</a>
+    <a href="#upcoming" class="w3-bar-item w3-button" onclick="toggleFunction()">UPCOMING</a>
+     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-off" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">E. <span class="w3-hide-small">o.</span> N.</span>
+  </div>
+</div>
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Ensemble of Nomads</h3>
+  </div>
+<p><img src="images/testP9.jpg" width=100%  alt=""/>
+<br><br><br><br><br>
+</p>
+
+<!-- jump (media Section) -->
+
+
+<div id="media">
+<p><br></p>
+</div>
+<div class="w3-row w3-center w3-dark-grey w3-padding-16" >
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Emilio Guim</span><br>
+    e-guitar
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Joao Carlos Pacheco</span><br>
+    percussion
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Charlotte Lorenz</span><br>
+    violoncello
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Talvi Hunt</span><br>
+    piano
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-off">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">MEDIA</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+
+
+<!-- Gallery FOUR COLUMNS -->
+
+
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">GALLERY<br></h3>
+
+<!-- BEGINNING row of four -->
+ <div class="w3-row-padding w3-center">
+ 
+  <div class="w3-col m3">
+      <a class="example-image-link" href="images/MediaCaravan.jpg" data-lightbox="example-set" data-title="Caravan - Michael Beil (2017)  "><img class="pic" src="images/ThumbMediaCaravan.jpg" width="200" height="112"/></a>
+      </div>
+      
+<div class="w3-col m3">
+      <a class="example-image-link" href="images/MediaMiraging.jpg" data-lightbox="example-set" data-title="Miraging - Emilio Guim (2017) <br>Live at Neubad 2017, Luzern"><img class="pic" src="images/ThumbMediaMiraging.jpg" width="200" height="112"/></a>
+</div>
+      
+<div class="w3-col m3">
+         <a class="example-image-link" href="images/MediaGK.jpg" data-lightbox="example-set" data-title="Generation Kill - Stefan Prins (2012)<br>Live at Music and Politics Festival 2015, Luzern"><img class="pic" src="images/ThumbMediaGK.jpg" width="200" height="112"/></a>
+</div>
+
+<div class="w3-col m3">
+    <a class="example-image-link" href="images/MediaPoint1s.jpg" data-lightbox="example-set" data-title="Point Ones - Alexander Schubert (2012)<br>Live at Maihof 2016, Luzern"><img class="pic" src="images/ThumbMediaPoint1s.jpg" width="200" height="112"/></a>
+</div>
+
+
+</div>
+
+<p><br></p>
+<!-- END row of four -->
+
+
+ <div class="w3-row-padding w3-center">
+
+<div class="w3-col m3">
+    <a class="example-image-link" href="images/MediaAsia.jpg" data-lightbox="example-set" data-title="Time Machine - Asia Ahmetjanova (2015)<br>Live at Neubad 2015, Luzern"><img class="pic" src="images/ThumbMediaAsia.jpg" width="200" height="112"/></a>
+</div>
+<div class="w3-col m3">
+   <a class="example-image-link" href="images/MediaWolves.jpg" data-lightbox="example-set" data-title="Raised by Wolves - Emilio Guim (2017)<br>Live at Neubad 2017, Luzern"><img class="pic" src="images/ThumbMediaWolves.jpg" width="200" height="112"/></a>
+</div>
+
+<div class="w3-col m3">
+    <a class="example-image-link" href="images/MediaAlong.jpg" data-lightbox="example-set" data-title="Along - Michael Beil (2014)"><img class="pic" src="images/ThumbMediaAlong.jpg" width="200" height="112"/></a>
+</div>
+<div class="w3-col m3">
+   <a class="example-image-link" href="images/MediaImmer.jpg" data-lightbox="example-set" data-title="Immer schneller der Propeller, immer besser Herr Professer - Michael Wertmueller (2016) <br>Live at reMusik Festival 2018, St. Petersbourg"><img class="pic" src="images/ThumbMediaImmer.jpg" width="200" height="112"/></a>
+</div>
+
+
+</div>
+<p><br></p>
+
+
+<!-- END row of four -->
+
+<div class="w3-row-padding w3-center">
+
+<div class="w3-col m3">
+   <a class="example-image-link" href="images/MediaZW.jpg" data-lightbox="example-set" data-title="Zum Wohl - Emilio Guim (2015)<br>Live at KlangBasel Festival 2016"><img class="pic" src="images/ThumbMediaZW.jpg" width="200" height="112"/></a>
+</div>
+
+
+<div class="w3-col m3">
+   <a class="example-image-link" href="images/MediaSpins.jpg" data-lightbox="example-set" data-title="Spins - Gary Berger (2007)<br>Live at reMusik Festival 2018, St. Petersbourg"><img class="pic" src="images/ThumbMediaSpins.jpg" width="200" height="112"/></a>
+</div>
+
+
+<div class="w3-col m3">
+   <a class="example-image-link" href="images/MediaDisconnect.jpg" data-lightbox="example-set" data-title="Disconnect - Alex Nadzharov (2018)"><img class="pic" src="images/ThumbMediaDisconnect.jpg" width="200" height="112"/></a>
+</div>
+
+  <div class="w3-col m3">
+      <a class="example-image-link" href="images/MediaCaravan2.jpg" data-lightbox="example-set" data-title="Caravan - Michael Beil (2017) <br>Live at Walcheturm 2017, Zurich "><img class="pic" src="images/ThumbMediaCaravan2.jpg" width="200" height="112"/></a>
+      </div>
+
+</div>
+<p><br></p>
+<!-- End of FOUR cells -->
+
+
+<div class="w3-row-padding w3-center">
+
+<div class="w3-col m3">
+   <a class="example-image-link" href="images/MediaEmilio.jpg" data-lightbox="example-set" data-title="Emilio Guim"><img class="pic" src="images/ThumbMediaEmilio.jpg" width="200" height="112"/></a>
+</div>
+
+
+<div class="w3-col m3">
+   <a class="example-image-link" href="images/MediaTalvi.jpg" data-lightbox="example-set" data-title="Talvi Hunt"><img class="pic" src="images/ThumbMediaTalvi.jpg" width="200" height="112"/></a>
+</div>
+
+
+<div class="w3-col m3">
+   <a class="example-image-link" href="images/MediaMiraging2.jpg" data-lightbox="example-set" data-title="Miraging - Emilio Guim (2016)"><img class="pic" src="images/ThumbMediaMiraging2.jpg" width="200" height="112"/></a>
+</div>
+
+  <div class="w3-col m3">
+      <a class="example-image-link" href="images/MediaZW2.jpg" data-lightbox="example-set" data-title="Zum Wohl - Emilio Guim (2015) <br>"><img class="pic" src="images/ThumbMediaZW2.jpg" width="200" height="112"/></a>
+      </div>
+
+</div>
+<p><br></p>
+<!-- End of FOUR cells -->
+
+<div class="w3-row-padding w3-center">
+
+<div class="w3-col m3">
+   <a class="example-image-link" href="images/MediaSoW.jpg" data-lightbox="example-set" data-title=""><img class="pic" src="images/ThumbMediaSoW.jpg" width="200" height="112"/></a>
+</div>
+
+<!-- Other 3 pics fit here -->
+</div>
+<!-- End of FOUR cells -->
+
+</div>
+<!-- End of table -->
+
+<div class="w3-content w3-container w3-padding-64" id="upcoming">
+  <h3 class="w3-center">UPCOMING<br></h3>
+  
+  <table width="900" border="0" align="center">
+                           
+                           <tr>
+                            <td><h8> <br></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            
+                                 <tr>
+                               <td valign="top"><h8>Autumn, 2024</h8></td>
+                              <td valign="top"><h9>UNTITLED tour
+								  <br>
+                              
+                              
+								  </h9></td>
+                              <td valign="top"><h9></h9></td>
+                              <td valign="top"><h9>Tour info coming up</h9></td>
+</tr>                      
+                         
+                         <tr>
+                               <td valign="top"><h8>Summer, 2025</h8></td>
+                              <td valign="top"><h9>UNTITLED
+								  <br>Program composed by Kevin Juillerat and Emilio Guim
+                              
+                              
+								  </h9></td>
+                              <td valign="top"><h9></h9></td>
+                              <td valign="top"><h9>Tour info coming up</h9></td>
+</tr>   
+                            
+                            
+                          </table>
+</div>  
+
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<p><br></p>
+
+<div class="bgimg-3 w3-display-container w3-opacity-off" id="contact">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">CONTACT US FOR FULL DOSSIER AND TECH RIDERS</h3>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <!-- Add Google Maps -->
+      <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="w3-col m8 w3-panel">
+    
+    <p>Artistic director: Emilio Guim</p>
+    
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Switzerland<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +41 76 281 19 81<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ensembleofnomads@gmail.com<br>
+      </div></div></div></div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity-off w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  
+</footer>
+ 
+<!-- Add Google Maps -->
+
+
+<script src="EoNjs/lightbox-plus-jquery.min.js"></script>
+
+<script>
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+
+</body>
+</html>
